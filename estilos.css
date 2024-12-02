@@ -1,0 +1,224 @@
+/* Container principal */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Títulos e textos */
+h1, h2 {
+    color: #333;
+}
+#texto-melodias{
+    margin: 100px;
+    font-size: 50px;
+}
+#botao-iniciar{
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 70px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4d4dff;
+    color: #fff;
+    font-weight: bold; /*deixa em negrito*/
+    transition: all 0.2s;
+
+}
+#escolher-opcoes{
+    color: white;
+    background-color: #4d4dff;
+    width: 80%;
+    height: 40px;
+    font-weight: bold;   
+    text-align: center;
+    font-size: 48px;   
+    border-radius: 5px;       
+    padding: 55px; 
+    margin: 10px auto;
+}
+/* Botão geral */
+button {
+    padding: 25px 25px;
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4d4dff;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: #6666ff;
+}
+
+/* Botão "Tocar música X" */
+#botao-musica {
+    display: block;
+    margin: 200px auto;
+    width: 500px;
+    height: 150px;
+    font-size: 40px;
+    background-color: #4da6ff;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#botao-musica:hover {
+    background-color: #3399ff;
+    transform: scale(1.05);
+}
+
+/* Texto "Tocando música" */
+#tocando-musica {
+    font-size: 30px;
+    width: 80%;
+    height: 50px;
+    color: #ffffff;
+    background-color: #b84dff;
+    padding: 30px;
+    margin: 40px auto;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Texto "Tocando música" */
+#escolha-sequencia {
+    font-size: 34px;
+    width: 80%;
+    height: 50px;
+    color: #ffffff;
+    background-color: #15c4cd;
+    padding: 30px;
+    margin: 40px auto;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+/* Barra de progresso */
+#barra-progresso-container {
+    margin: 250px auto;
+    width: 80%;
+    height: 40px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#barra-progresso {
+    width: 0;
+    height: 100%;
+    background-color: #76c7c0;
+    transition: width 0.1s linear;
+}
+
+/* Botões das opções */
+#opcoes button {
+    display: block;
+    margin: 20px auto;
+    width: 60%;    
+    height: 80px;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#botao-palpite {   
+    background-color: #ca33c7 !important;
+    position: absolute; /* Posicionamento absoluto para manipular a posição */
+    top: 70%; /* Ajuste vertical: próximo ao centro */
+    right: 12%; /* Ajuste horizontal: alinhado à direita da tela */    
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;        
+}
+
+#botao-palpite:hover {
+    background-color: #ff8000; /* Um tom mais escuro para hover */
+    transform: scale(1.05);
+}
+
+
+#opcoes button:nth-child(1) {
+    background-color: #4da6ff; /* Azul */
+    /* font-size: 24px; */
+}   
+
+#opcoes button:nth-child(2) {
+    background-color: #4dff4d; /* Verde */
+}
+
+#opcoes button:nth-child(3) {
+    background-color: #ffaa33; /* Laranja */
+}
+
+#opcoes button:nth-child(4) {
+    background-color: #ff4d4d; /* Vermelho */
+}
+
+#opcoes button:nth-child(5) {
+    background-color: #b84dff; /* Roxo */
+}
+
+#opcoes button:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+#mensagem-feedback {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 9999;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#mensagem-texto {
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#botao-ok {
+    background-color: #4dff4d;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botao-ok:hover {
+    background-color: #39e639;
+}

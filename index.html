@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Melodias</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="quiz_musical_favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Tela inicial -->
+    <div id="tela-inicial">
+        <h1 id="texto-melodias">Quiz Musical - Trilhas de filmes</h1>
+        <button id="botao-iniciar">Iniciar</button>
+    </div>
+
+    <!-- Tela para escolher a sequência -->
+    <div id="tela-sequencia" style="display: none;">
+        <h2 id="escolha-sequencia">Escolha uma sequência de trilhas musicais:</h2>
+        <div id="botoes-sequencia"></div>
+    </div>
+
+    <!-- Tela de Quiz -->
+    <div id="tela-quiz" style="display: none;">
+        <div id="tocando-musica" style="display: none;">🎵 Tocando trilha...</div>
+        <div id="escolher-opcoes" style="display: none;">Qual é o seu palpite?</div>
+        <div id="barra-progresso-container">
+            <div id="barra-progresso"></div>
+        </div>
+        <button id="botao-musica" style="display: none;"></button>
+        <div id="opcoes"></div>
+    </div>
+
+    <!-- Tela para continuar ou encerrar -->
+    <div id="tela-continuar-encerrar" style="display: none;">
+        <h2>O que você gostaria de fazer?</h2>
+        <button id="botao-continuar">Continuar</button>
+        <button id="botao-encerrar">Encerrar</button>
+    </div>
+
+    <!-- Tela final com estatísticas -->
+    <div id="tela-final" style="display: none;">
+        <h2>Fim do Quiz</h2>
+        <div id="estatisticas-final"></div>
+        <button id="botaoReiniciar">Reiniciar</button>
+    </div>
+
+    <div id="mensagem-feedback" style="display: none;">
+        <div id="mensagem-texto"></div>
+        <button id="botao-ok">OK</button>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
