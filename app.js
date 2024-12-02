@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     const sequencias_original = {
         1: [
-            { arquivo: "A Vida é uma festa - Trecho 1.mp3", titulo: "A Vida é uma festa" },
+            { arquivo: "A Vida é uma festa - Trecho 1.mp3", titulo: "Coco (A Vida é uma festa)" },
             { arquivo: "Aladdin - Trecho 1.mp3", titulo: "Aladdin" },
             { arquivo: "Beauty and the Beast - Trecho 1.mp3", titulo: "Beauty and the Beast" },
             { arquivo: "ET the Extra Terrestrial - Trecho 1.mp3", titulo: "ET the Extra Terrestrial" },
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			{ arquivo: "Top Gun - Trecho 2.mp3", titulo: "Top Gun" }            
         ],
         10: [
-            { arquivo: "A Vida é uma festa - Trecho 2.mp3", titulo: "A Vida é uma festa" },
+            { arquivo: "A Vida é uma festa - Trecho 2.mp3", titulo: "Coco (A Vida é uma festa)" },
             { arquivo: "Aladdin - Trecho 2.mp3", titulo: "Aladdin" },
             { arquivo: "Avatar - Trecho 2.mp3", titulo: "Avatar" },
             { arquivo: "Avengers - Trecho 2.mp3", titulo: "Avengers" },
