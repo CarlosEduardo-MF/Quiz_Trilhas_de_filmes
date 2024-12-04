@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { arquivo: "Interestellar - trecho 2.mp3", titulo: "Interestellar" },
             { arquivo: "Mission Impossible - Trecho 1.mp3", titulo: "Mission Impossible" },
             { arquivo: "Nothing Hill - Trecho 1.mp3", titulo: "Nothing Hill" },
-			{ arquivo: "Top Gun - Trecho 2.mp3", titulo: "Top Gun" }            
+			{ arquivo: "Dirty Dancing - Trecho 3.mp3", titulo: "Dirty Dancing" }           
         ],
         10: [
             { arquivo: "A Vida é uma festa - Trecho 2.mp3", titulo: "Coco (A Vida é uma festa)" },
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { arquivo: "Rocky - Trecho 2.mp3", titulo: "Rocky" }
         ],
         15: [
-            { arquivo: "Dirty Dancing - Trecho 1.mp3", titulo: "Dirty Dancing" },
+            { arquivo: "Dirty Dancing - Trecho 3.mp3", titulo: "Dirty Dancing" },
             { arquivo: "Greese - Trecho 1.mp3", titulo: "Greese" },
             { arquivo: "Pretty Woman - Trecho 1.mp3", titulo: "Pretty Woman" },
             { arquivo: "2001 space odyssey - Trecho 1.mp3", titulo: "2001 space odyssey" },            
