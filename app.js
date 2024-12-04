@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { arquivo: "Rocky - Trecho 2.mp3", titulo: "Rocky" }
         ],
         15: [
-            { arquivo: "Dirty Dancing - Trecho 3.mp3", titulo: "Dirty Dancing" },
+            { arquivo: "Dirty Dancing - Trecho 4.mp3", titulo: "Dirty Dancing" },
             { arquivo: "Greese - Trecho 1.mp3", titulo: "Greese" },
             { arquivo: "Pretty Woman - Trecho 1.mp3", titulo: "Pretty Woman" },
             { arquivo: "2001 space odyssey - Trecho 1.mp3", titulo: "2001 space odyssey" },            
